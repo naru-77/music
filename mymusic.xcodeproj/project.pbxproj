@@ -13,6 +13,10 @@
 		B918FC732703782100BD7ECF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B918FC5E2703781F00BD7ECF /* ContentView.swift */; };
 		B918FC742703782100BD7ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B918FC5F2703782100BD7ECF /* Assets.xcassets */; };
 		B918FC752703782100BD7ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B918FC5F2703782100BD7ECF /* Assets.xcassets */; };
+		B918FC7F27037A6800BD7ECF /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B918FC7E27037A6800BD7ECF /* SoundPlayer.swift */; };
+		B918FC8027037A6800BD7ECF /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B918FC7E27037A6800BD7ECF /* SoundPlayer.swift */; };
+		B91D7549270DDA2100027664 /* ButtonImageView .swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D7548270DDA2100027664 /* ButtonImageView .swift */; };
+		B91D754A270DDA2100027664 /* ButtonImageView .swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D7548270DDA2100027664 /* ButtonImageView .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		B918FC6C2703782100BD7ECF /* mymusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mymusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B918FC6E2703782100BD7ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B918FC6F2703782100BD7ECF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B918FC7E27037A6800BD7ECF /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		B91D7548270DDA2100027664 /* ButtonImageView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonImageView .swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 			children = (
 				B918FC5D2703781F00BD7ECF /* mymusicApp.swift */,
 				B918FC5E2703781F00BD7ECF /* ContentView.swift */,
+				B91D7548270DDA2100027664 /* ButtonImageView .swift */,
+				B918FC7E27037A6800BD7ECF /* SoundPlayer.swift */,
 				B918FC5F2703782100BD7ECF /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B918FC722703782100BD7ECF /* ContentView.swift in Sources */,
+				B918FC7F27037A6800BD7ECF /* SoundPlayer.swift in Sources */,
 				B918FC702703782100BD7ECF /* mymusicApp.swift in Sources */,
+				B91D7549270DDA2100027664 /* ButtonImageView .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B918FC732703782100BD7ECF /* ContentView.swift in Sources */,
+				B918FC8027037A6800BD7ECF /* SoundPlayer.swift in Sources */,
 				B918FC712703782100BD7ECF /* mymusicApp.swift in Sources */,
+				B91D754A270DDA2100027664 /* ButtonImageView .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
